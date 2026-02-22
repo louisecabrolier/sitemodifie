@@ -1,0 +1,16 @@
+{
+  "slug": "detection-panneaux-yolov8",
+  "title": "Détection de panneaux de signalisation avec YOLOv8",
+  "date": "15/01/2026",
+  "author": "Louise CABROLIER",
+  "tags": [
+    "Python",
+    "Deep Learning",
+    "Vision par ordinateur",
+    "YOLOv8"
+  ],
+  "excerpt": "<p>Système de détection et classification de panneaux de signalisation en temps réel à partir d&#39;un flux vidéo, utilisant le modèle YOLOv8.</p>\n",
+  "thumbnail": "assets/projects/yolov8.png",
+  "file": "detection-panneaux-yolov8",
+  "content": "<h2>Contexte</h2>\n<p>Ce projet a été réalisé dans le cadre de mes cours d&#39;intelligence artificielle à l&#39;ESIEE Paris. L&#39;objectif était de concevoir un système capable de détecter et classifier des panneaux de signalisation routière en temps réel.</p>\n<h2>Approche</h2>\n<p>J&#39;ai utilisé YOLOv8 (You Only Look Once), un modèle de détection d&#39;objets état de l&#39;art, que j&#39;ai fine-tuné sur un dataset de panneaux de signalisation. Le modèle a été entraîné sur Google Colab avec un GPU pour accélérer l&#39;apprentissage.</p>\n<h3>Étapes du projet</h3>\n<ol>\n<li><strong>Collecte et préparation des données</strong> — annotation du dataset avec Roboflow</li>\n<li><strong>Fine-tuning de YOLOv8</strong> — entraînement sur le dataset annoté</li>\n<li><strong>Évaluation</strong> — calcul des métriques mAP, précision et rappel</li>\n<li><strong>Déploiement</strong> — intégration sur flux vidéo en temps réel</li>\n</ol>\n<h2>Technologies utilisées</h2>\n<ul>\n<li>Python</li>\n<li>YOLOv8 (Ultralytics)</li>\n<li>Google Colab</li>\n<li>OpenCV pour le traitement vidéo</li>\n<li>Roboflow pour l&#39;annotation</li>\n</ul>\n<h2>Résultats</h2>\n<p>Le modèle obtient un <a href=\"mailto:mAP@0.5\">mAP@0.5</a> satisfaisant sur le jeu de test, avec une inférence suffisamment rapide pour fonctionner en temps réel sur flux vidéo.</p>\n"
+}

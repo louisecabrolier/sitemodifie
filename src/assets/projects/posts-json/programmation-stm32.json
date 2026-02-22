@@ -1,0 +1,16 @@
+{
+  "slug": "programmation-stm32",
+  "title": "Programmation embarquée sur STM32",
+  "date": "20/11/2025",
+  "author": "Louise CABROLIER",
+  "tags": [
+    "C",
+    "STM32",
+    "Systèmes embarqués",
+    "RTOS"
+  ],
+  "excerpt": "<p>Développement d&#39;une application temps réel sur microcontrôleur STM32, avec gestion des interruptions, des périphériques et d&#39;un système d&#39;exploitation temps réel.</p>\n",
+  "thumbnail": "assets/projects/stm32.png",
+  "file": "programmation-stm32",
+  "content": "<h2>Contexte</h2>\n<p>Dans le cadre de ma spécialisation en systèmes embarqués à l&#39;ESIEE Paris, j&#39;ai réalisé plusieurs projets de programmation sur microcontrôleur STM32 en langage C.</p>\n<h2>Ce que j&#39;ai développé</h2>\n<h3>Gestion des périphériques</h3>\n<p>J&#39;ai programmé la communication avec différents périphériques via les protocoles standard des systèmes embarqués : UART pour la communication série, I2C et SPI pour les capteurs, et GPIO pour les entrées/sorties numériques.</p>\n<h3>Système temps réel avec RTAI</h3>\n<p>J&#39;ai utilisé RTAI (Real-Time Application Interface) pour implémenter des tâches temps réel avec des contraintes strictes de latence. Cela implique la gestion de tâches périodiques, la synchronisation par sémaphores et la communication inter-tâches.</p>\n<h3>Gestion des interruptions</h3>\n<p>Implémentation de routines d&#39;interruption (ISR) pour répondre à des événements externes avec des temps de réponse garantis.</p>\n<h2>Technologies utilisées</h2>\n<ul>\n<li>Langage C</li>\n<li>STM32 (STM32CubeIDE, HAL)</li>\n<li>RTAI pour le temps réel</li>\n<li>Protocoles UART, I2C, SPI</li>\n<li>Debugging avec GDB et ST-Link</li>\n</ul>\n<h2>Compétences acquises</h2>\n<p>Ce projet m&#39;a permis de comprendre les contraintes spécifiques du développement embarqué : gestion de la mémoire limitée, optimisation du code pour des processeurs peu puissants, et respect de contraintes temporelles strictes.</p>\n"
+}

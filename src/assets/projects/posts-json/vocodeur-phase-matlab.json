@@ -1,0 +1,15 @@
+{
+  "slug": "vocodeur-phase-matlab",
+  "title": "Vocodeur de phase en MATLAB",
+  "date": "10/12/2025",
+  "author": "Louise CABROLIER",
+  "tags": [
+    "MATLAB",
+    "Traitement du signal",
+    "Audio"
+  ],
+  "excerpt": "<p>Implémentation d&#39;un vocodeur de phase avec interface graphique permettant de modifier la hauteur et la vitesse d&#39;un signal audio de façon indépendante.</p>\n",
+  "thumbnail": "assets/projects/vocodeur.png",
+  "file": "vocodeur-phase-matlab",
+  "content": "<h2>Contexte</h2>\n<p>Dans le cadre de mes cours de traitement du signal à l&#39;ESIEE Paris, j&#39;ai implémenté un vocodeur de phase en MATLAB. Le vocodeur de phase est un outil de traitement audio permettant de modifier la vitesse de lecture d&#39;un son sans changer sa hauteur, et inversement.</p>\n<h2>Principe</h2>\n<p>Le vocodeur de phase repose sur l&#39;analyse STFT (Short-Time Fourier Transform) du signal audio. En manipulant les phases des composantes fréquentielles entre chaque trame, il est possible de :</p>\n<ul>\n<li><strong>Modifier le tempo</strong> sans changer la hauteur (time-stretching)</li>\n<li><strong>Modifier la hauteur</strong> sans changer le tempo (pitch-shifting)</li>\n<li>Combiner les deux effets indépendamment</li>\n</ul>\n<h2>Fonctionnalités implémentées</h2>\n<ul>\n<li>Analyse et synthèse par STFT</li>\n<li>Time-stretching avec correction de phase</li>\n<li>Pitch-shifting par combinaison de time-stretching et rééchantillonnage</li>\n<li>Plusieurs effets audio supplémentaires (robotisation, chorus)</li>\n<li>Interface graphique (GUI) sous MATLAB App Designer</li>\n</ul>\n<h2>Technologies utilisées</h2>\n<ul>\n<li>MATLAB</li>\n<li>MATLAB App Designer pour la GUI</li>\n<li>Traitement du signal numérique (FFT, STFT, fenêtrage)</li>\n</ul>\n<h2>Résultats</h2>\n<p>L&#39;interface permet de charger un fichier audio, d&#39;ajuster les paramètres en temps réel et d&#39;écouter le résultat transformé directement depuis l&#39;application.</p>\n"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "turtlebot3-navigation",
+  "title": "Navigation autonome d'un robot TurtleBot3",
+  "date": "01/02/2026",
+  "author": "Louise CABROLIER",
+  "tags": [
+    "ROS",
+    "Robotique",
+    "Python",
+    "C++"
+  ],
+  "excerpt": "<p>Programmation d&#39;un TurtleBot3 pour naviguer de façon autonome dans un environnement inconnu, avec évitement d&#39;obstacles et cartographie en temps réel.</p>\n",
+  "thumbnail": "assets/projects/robot.png",
+  "file": "turtlebot3-navigation",
+  "content": "<p><strong>Lien GitHub :</strong> <a href=\"https://github.com/louisecabrolier/site\">https://github.com/louisecabrolier/site</a></p>\n<h2>Contexte</h2>\n<p>Dans le cadre de mes cours de robotique à l&#39;ESIEE Paris, j&#39;ai travaillé sur la navigation autonome d&#39;un robot mobile TurtleBot3 en utilisant le framework ROS (Robot Operating System).</p>\n<h2>Objectifs</h2>\n<p>L&#39;objectif était de programmer un robot capable de se déplacer de façon autonome dans un environnement inconnu, en évitant les obstacles et en construisant une carte de son environnement en temps réel.</p>\n<h2>Ce que j&#39;ai fait</h2>\n<p>J&#39;ai utilisé l&#39;algorithme SLAM (Simultaneous Localization and Mapping) pour permettre au robot de se localiser et de cartographier son environnement simultanément. La navigation autonome repose sur le package <code>move_base</code> de ROS, qui gère la planification de trajectoire globale et locale.</p>\n<p>J&#39;ai également implémenté des comportements d&#39;évitement d&#39;obstacles réactifs grâce aux données du capteur LiDAR embarqué sur le TurtleBot3.</p>\n<h2>Technologies utilisées</h2>\n<ul>\n<li>ROS Noetic</li>\n<li>Python et C++ pour les nodes ROS</li>\n<li>Algorithme SLAM (GMapping)</li>\n<li>Rviz pour la visualisation</li>\n<li>Gazebo pour la simulation</li>\n</ul>\n<h2>Résultats</h2>\n<p>Le robot est capable de naviguer vers un point cible en évitant les obstacles dynamiques et statiques, tout en construisant une carte précise de l&#39;environnement.</p>\n"
+}

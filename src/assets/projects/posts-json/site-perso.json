@@ -1,0 +1,15 @@
+{
+  "slug": "site-perso",
+  "title": "J'ai créé mon site personnel",
+  "date": "21/02/2026",
+  "author": "Louise CABROLIER",
+  "tags": [
+    "Angular",
+    "TypeScript",
+    "Web"
+  ],
+  "excerpt": "<p>Développement de mon site personnel pour regrouper mes projets, mes compétences et mon parcours — forké depuis le projet open source de Kylian Julia et adapté à mes besoins.</p>\n",
+  "thumbnail": "assets/projects/siteperso1.png",
+  "file": "site-perso",
+  "content": "<p><strong>Lien GitHub :</strong> <a href=\"https://github.com/louisecabrolier/site\">https://github.com/louisecabrolier/site</a></p>\n<h2>Pourquoi ce site ?</h2>\n<p>J&#39;avais besoin d&#39;un endroit centralisé pour présenter mon parcours, mes projets et mes compétences, au-delà de ce qu&#39;un CV classique peut contenir. Ce site me permet de partager mes aventures techniques, mes expériences à l&#39;international (échange à Bologne, programme d&#39;été à Xi&#39;an) et mes projets d&#39;ingénierie.</p>\n<h2>Comment c&#39;est fait ?</h2>\n<p>Le site est développé en <strong>Angular</strong> (TypeScript), forké depuis le projet de Kylian Julia que j&#39;ai adapté à mon profil. Il s&#39;agit d&#39;un frontend pur, sans backend.</p>\n<h3>Système de posts sans backend</h3>\n<p>Les articles et projets sont rédigés en <strong>Markdown</strong> et convertis automatiquement en JSON via un script Node.js. Un système de CI/CD rebuild et redéploie le site automatiquement à chaque modification sur la branche principale.</p>\n<h3>Design</h3>\n<p>Le design reprend une esthétique sombre avec des accents violets. J&#39;ai personnalisé les sections pour correspondre à mon parcours : formations, expériences, compétences techniques, et CV téléchargeable en français et en anglais.</p>\n<h2>Technologies utilisées</h2>\n<ul>\n<li>Angular 20</li>\n<li>TypeScript</li>\n<li>Node.js pour les scripts de génération d&#39;index</li>\n<li>CI/CD pour le déploiement automatique</li>\n</ul>\n"
+}

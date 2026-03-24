@@ -11,7 +11,7 @@
       "YOLOv8"
     ],
     "excerpt": "<p>Système de détection et classification de panneaux de signalisation en temps réel à partir d&#39;un flux vidéo, utilisant le modèle YOLOv8.</p>\n",
-    "thumbnail": "assets/projects/yolov8.png",
+    "thumbnail": "/miniatures/project-default.png",
     "file": "detection-panneaux-yolov8"
   },
   {
@@ -27,7 +27,7 @@
       "Machine Learning"
     ],
     "excerpt": "<p>Montre connectée embarquant un modèle d&#39;IA pour reconnaître les gestes des utilisateurs âgés, avec une précision de 99,5%.</p>\n",
-    "thumbnail": "assets/projects/domowatch.png",
+    "thumbnail": "/miniatures/project-default.png",
     "file": "domowatch-reconnaissance-gestes"
   },
   {
@@ -42,7 +42,7 @@
       "RTOS"
     ],
     "excerpt": "<p>Développement d&#39;une application temps réel sur microcontrôleur STM32, avec gestion des interruptions, des périphériques et d&#39;un système d&#39;exploitation temps réel.</p>\n",
-    "thumbnail": "assets/projects/stm32.png",
+    "thumbnail": "/miniatures/project-default.png",
     "file": "programmation-stm32"
   },
   {
@@ -56,7 +56,7 @@
       "Web"
     ],
     "excerpt": "<p>Développement de mon site personnel pour regrouper mes projets, mes compétences et mon parcours — forké depuis le projet open source de Kylian Julia et adapté à mes besoins.</p>\n",
-    "thumbnail": "assets/projects/siteperso1.png",
+    "thumbnail": "/miniatures/project-default.png",
     "file": "site-perso"
   },
   {
@@ -71,7 +71,7 @@
       "C++"
     ],
     "excerpt": "<p>Programmation d&#39;un TurtleBot3 pour naviguer de façon autonome dans un environnement inconnu, avec évitement d&#39;obstacles et cartographie en temps réel.</p>\n",
-    "thumbnail": "assets/projects/robot.png",
+    "thumbnail": "/miniatures/project-default.png",
     "file": "turtlebot3-navigation"
   },
   {
@@ -85,7 +85,7 @@
       "Audio"
     ],
     "excerpt": "<p>Implémentation d&#39;un vocodeur de phase avec interface graphique permettant de modifier la hauteur et la vitesse d&#39;un signal audio de façon indépendante.</p>\n",
-    "thumbnail": "assets/projects/vocodeur.png",
+    "thumbnail": "/miniatures/project-default.png",
     "file": "vocodeur-phase-matlab"
   }
 ]

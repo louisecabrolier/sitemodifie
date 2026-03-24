@@ -4,7 +4,7 @@
 
 Site web personnel de Louise CABROLIER ([louisecabrolier.fr](https://louisecabrolier.fr/)) répertoriant les compétences mais également les projets et un blog.
 
-Ce projet est une copie d'une version datant de février 2026 d'un projet public de [Kylian JULIA](https://kylianjulia.fr) -> [Voir le projet](https://github.com/kylianjoff/kylianjulia)
+Ce projet est une copie d'une version datant de février 2026 d'un projet public de [Kylian JULIA](https://kylianjulia.fr) -> [Voir le projet](https://github.com/kylianjoff/kylianjulia).
 
 Ce projet a été généré en utilisant [Angular CLI](https://github.com/angular/angular-cli) version 21.1.4.
 
